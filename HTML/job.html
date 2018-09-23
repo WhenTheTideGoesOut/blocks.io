@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta  charset="utf-8">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="../js/createQuote.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel ="stylesheet" href="../css/hammer.css">
+<link rel="stylesheet" href="../css/navbar.css">   
+<link rel="stylesheet" href="../css/form.css">
+<link rel="stylesheet" href="../css/job.css">
+
+
+
+    </head>
+
+
+    <nav>
+        <li class="navbariconhomepage">   <a href="landing.html">Blocks.io  </a></li>
+        <li class="navbaraboutpage"><a href="about.html">About</a></li>
+        <li class="navbarcontactuspage"><a href="contactus.html">Contact Us</a></li>
+        <li class="navbarpricingpage"><a href="pricing.html">Pricing</a></li>
+        <li class ="iconloginepage"><a href="login.html">Login</a></li>
+
+    </nav>
+
+
+   <body>
+
+
+  
+
+        <div class="panel1"></div>
+
+        <div class="panel2">
+
+                <form id="job_form" method ="POST">
+
+                        <label id="label1">Customer Name</label>
+                        <input id="input1" type="text" name="customerName"><br>
+                        <label id="label2">Email Address</label>
+                        <input id="input2" type="E-Mail" name="customerEmail"><br>
+                        <label id="label3">Phone Number</label>
+                        <input id="input3" type="number" name="customerPhoneNumber"><br>
+                        <label id="label4">Address</label>
+                        <input id="input4" type="text" name="customerAddress"><br>
+                        <label id="label5">Start Date</label>
+                        <input id="input5" type="date" name="customerStartDate"><br>
+                        <label id="label6">Finish Date</label>
+                        <input id="input6" type="date" name="customerFinishDate"><br>
+                        
+                        <button  type="submit" class="button1" formaction="../PHP/searchJob.php"> Search </button>
+                        <button  type="submit" class="button2" formaction="../HTML/job.html"> Book </button>
+                        <!--
+                        <button  type="submit" class="button2" formaction="../HTML/job.html"> Mark Complete</button>  
+                         <button  type="submit" class="button3" formaction="../HTML/job.html"> Delete </button>
+                       
+                    -->
+                    </form>
+
+            </div>
+
+        <div class="panel3">
+
+
+        </div>
+
+
+
+    
+
+
+
+   </body> 
+
+
+</html>

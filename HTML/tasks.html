@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+
+
+
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>-->
+<meta  charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> <!-- Turn off zooming on Mobile page-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<!--<script src="../js/createQuote.js"></script>-->
+<link rel ="stylesheet" href="../css/bootstrap.css">
+<link rel ="stylesheet" href="../css/hammer.css">
+ 
+
+</head>
+
+<body>
+
+    <div class ="jumbotron">
+
+        <div class="container-fluid">
+             <div class="row top-buffer"></div>
+                  
+        <form class = "form-horizontal" method="POST">
+
+                <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Customer Name</label>
+                        <div class="col-sm-8">
+                            <input type="Text" class="form-control"  placeholder="Customer Name">
+                        </div> 
+                        </div>
+
+                    <div class="form-group">
+                    <label for="employeeName" class"col-sm-2 control-label">Employee Name</label>
+                    <div class="col-sm-8">    
+                    <input type="text" class="form-control" placeholder="Employee Name" name="employeeName">
+                    </div>
+                    </div>
+
+                    Task Description: <input type="text" name="taskDescription"> <br>
+                    Hours: <input type="number" name="taskHours"> <br>
+                    Start Date: <input type="date" name="startDate">
+                    Finish Date: <input type="date" name="finishDate">
+                    Job: <input type="text" name="job">
+                    Related Tasks:<input type="text" name="relatedTasks">
+                    Complete:<input type ="checkbox" name="completeTask">
+                    45<input type="hidden" name="pageid">
+       
+                        
+               
+        </div> <!--close the container-->
+
+
+<button type="submit"formaction ="../PHP/connect.php">Add Task</button> 
+<button type="submit"formaction = "../PHP/search.php">Search Tasks</button>
+<button type="submit"formaction ="URI....">Mark Complete </button>
+ </form>
+
+    </div><!--close jumbotron-->
+</body>
+
+</html>

@@ -1,0 +1,239 @@
+/*body{
+    background-image: url('../html/First-Image.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}*/
+body{
+
+    background-color:black;
+    color:rgba(129, 126, 126, 0.911);
+}
+
+    nav{
+        padding:0em;
+        margin:0em;
+        width:100%;
+        height:5em;
+        display:grid;
+        list-style-type: none;
+        font-family: rockwell,roboto;
+        font-style:italic; 
+        background-color:black;
+        color:rgba(129, 126, 126, 0.603);
+        grid-template-columns: auto auto auto auto auto;
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+
+    }
+    a{
+        color:rgba(129, 126, 126, 0.911);
+        font-family: rockwell,roboto;
+        font-style:italic; 
+
+    }
+
+    .navbariconhomepage
+    {
+        grid-column:1;
+        grid-row:1;
+        font-family: rockwell,roboto;
+        font-style:italic;
+        font-size:25px;
+      
+
+    }
+
+    .navbaraboutpage
+    {
+        grid-column:2;
+        grid-row:1;
+        font-size:25px;
+        text-align: left;
+        font-family: rockwell,roboto;
+        font-style:italic; 
+        background-color:black;
+   
+
+        
+
+    }
+
+    .navbarcontactuspage
+    {
+        grid-column:3;
+        grid-row:1;
+        font-family: rockwell,roboto;
+        font-style:italic; 
+        background-color:black;
+        
+        font-size:25px;
+
+
+    }
+
+    .navbarpricingpage
+    {
+        grid-column:4;
+        grid-row:1;
+        font-family: rockwell,roboto;
+        font-style:italic; 
+        background-color:black;
+     
+        font-size:25px;
+
+
+    }
+
+    .iconloginepage
+    {
+        grid-column:5;
+        font-family: rockwell,roboto;
+        font-style:italic; 
+        background-color:black;
+       
+        font-size:25px;
+
+    }
+
+.welcome-header
+{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap:10px;
+
+}
+
+.welcome-image
+{
+    background-image: url('../html/First-Image.jpeg');
+    height: 50em;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding:0;
+    margin:0;
+}
+
+.welcome-text-title
+{
+    color:white;
+    font-family: rockwell,roboto;
+    font-style:italic; 
+    font-size: 2em;
+    line-height: 1.1;
+    letter-spacing: 0;
+}
+
+.registerform {
+
+    margin: auto;
+    width: 60%;
+    border: 3px solid rgb(248, 248, 245);
+    padding: 10px;
+    font-family: rockwell,roboto;
+    font-style:italic; 
+    font-size:20px;
+   display:block;
+
+
+}
+
+form{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-gap: 0px;
+    color: white;
+    }
+
+.label1 
+{
+    grid-column: 1;
+    grid-row:1;
+    
+
+}
+
+.label2
+{
+    grid-column: 1;
+    grid-row:2;
+
+}
+
+.label3
+{
+    grid-column: 1;
+    grid-row:3;
+}
+
+.label4
+{
+    grid-column: 1;
+    grid-row:4;
+
+}
+
+.label5
+{
+    grid-column: 1;
+    grid-row:5;
+
+}
+
+.label6
+{
+    grid-column:1;
+    grid-row:6;
+}
+
+
+.field1 
+{
+    grid-column: 2;
+    grid-row:1;
+}
+
+.field2
+{
+ grid-column:2;
+ grid-row:2;
+
+}
+
+.field3
+{
+ grid-column:2;
+ grid-row:3;
+
+}
+
+.field4
+{
+ grid-column:2;
+ grid-row:4;
+
+}
+
+.field5
+{
+ grid-column:2;
+ grid-row:5;
+
+}
+
+.field6
+{
+ grid-column:2;
+ grid-row:6;
+
+}
+
+.stripe-button
+{
+
+    grid-column:2;
+    grid-row:7;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+    <head>            
+        <link rel ="stylesheet" href="../css/hammer.css"> 
+        <link rel="stylesheet" href="../css/navbar.css">   
+        <link rel="stylesheet" href="../css/form.css">   
+        <link rel="stylesheet" href="../css/homescreen.css">   
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/register.js"></script>
+        <script src="gen_validatorv4.js" type="text/javascript"></script>
+           
+    </head>
+
+        <body>
+
+                <nav>
+                        <li class="navbariconhomepage">   <a href="landing.html">Blocks.io  </a></li>
+                        <li class="navbaraboutpage"><a href="about.html">About</a></li>
+                        <li class="navbarcontactuspage"><a href="contactus.html">Contact Us</a></li>
+                        <li class="navbarpricingpage"><a href="pricing.html">Pricing</a></li>
+                        <li class ="iconloginepage"><a href="Landing.html">Register</a></li>
+            
+                    </nav>
+
+            <div class="panel1">
+
+
+            </div>
+           
+            <div class="panel2">
+                    <form  method="POST" id=homescreen_form>
+                            <!-- add in the offsetting for the different sizes of screen-->
+                            <!--<button type="submit" formaction="../php/login.php">Login</button>-->
+                               
+                               <button  type="submit" class="button_one" formaction="../HTML/quote.html"> Quote </button>
+                               <button  type="submit" class="button_two" formaction="../HTML/job.html"> Book A Job</button>
+                               <button  type="submit" class="button_three" formaction="../PHP/managejob.php"> Manage Job</button>
+                               <!--
+                                The below buttons are functions for later releases.
+                                Initial Release will focus on quoting and task management.
+
+                               <button  type="submit" class="button_four" formaction="tasks.html"> Tasks </button>
+                               <button  type="submit" class="button_five" formaction="staff.html"> Staff </button>
+                               <button  type="submit" class="button_six" formaction="receivables.html"> Receivables </button>
+           
+                               <button  type="submit" class="button_seven" formaction="purchases.html"> Purchases </button>
+                               <button  type="submit" class="button_eight" formaction="liabilities.html"> Liabilities </button>
+                               <button  type="submit" class="button_nine" formaction="assets.html"> Assets </button>
+                                -->
+                               <button  type="submit" class="button_ten" formaction="reporting.html"> Reporting </button>
+                           </form>  
+                <script  type="text/javascript">
+                    var frmvalidator = new Validator("loginform");
+                    
+                    
+                    frmvalidator.addValidation("username","maxlen=50");
+                    frmvalidator.addValidation("username","req");
+                    frmvalidator.addValidation("username","email");
+                    
+                    
+              
+                   </script>
+
+
+               </div>
+
+            <div class="panel3">
+
+            </div>
+        </body>
+        </html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <!--  <link rel ="stylesheet" href="../css/bootstrap.css">-->
+       <!--<link rel ="stylesheet" href="../css/hammer.css">-->
+        <link rel="stylesheet" href="../css/blocks.css">   
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/register.js"></script>
+        <!-- Turn off zooming on Mobile page-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <title>Blocks.io</title>
+
+    </head>
+
+    <body>
+           
+            <nav>
+                <li class="navbariconhomepage">   <a href="landing.html">Blocks.io  </a></li>
+                <li class="navbaraboutpage"><a href="about.html">About</a></li>
+                <li class="navbarcontactuspage"><a href="contactus.html">Contact Us</a></li>
+                <li class="navbarpricingpage"><a href="pricing.html">Pricing</a></li>
+                <li class ="iconloginepage"><a href="login.html">Login</a></li>
+    
+            </nav>
+        
+    
+
+        
+        <div class ="welcome-header">    
+            <!-- <img src= "First-Image.jpeg" alt="Hammer and Nail">-->
+            <div class="welcome-image">  
+                <div class="welcome-text-title">
+                <h1>Blocks.io<br>Helping Tradesmen and Crafts men<br>    Get it Done.</h1>
+                </div>  
+
+                 <!--   <div class="registerform"> -->
+
+                        <form id ="user_register_form" name ="user_register_form" action="../php/register.php" method="POST">
+                       <!-- Labels on the Lett-->
+                            <label for="firstname" class='label1' for="firstname"> First Name:</label>
+                            <label for="surname" class='label2'for="surname"  > Surname: </label>
+                            <label for="useremail" class='label3' for="useremail" > Email:</label>
+                            <label for="companyname" class='label4'for "companyname"> Company Name: </label>
+                            <label for="password" class='label5'for="password" > Password:</label>
+                            <label for="confirmpassword" class='label6' for="confirmpassword"  > Confirm Password: </label>
+            
+
+                            
+                       
+                            <!--Fields on the right-->
+                            <input class = "field1" type="text" name ="firstname" id="firstname"  placeholder="First Name"> 
+                            <input class = "field2" type="text" name ="surname" id="surname" placeholder="Surname" > 
+                            <input class = "field3" type="email" name ="useremail" id="useremail" placeholder ="Email">
+                            <input class = "field4" type="text" name ="companyname" id="companyname" placeholder="Company Name" > 
+                            <input class = "field5" type="password" name ="password" id="password" placeholder="Password"> 
+                            <input class = "field6" type="password" name ="confirmpassword" id="confirmpassword" placeholder="Confirm Passowrd">  
+
+                            <script
+                            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                            data-key="pk_test_34xdvbL3rfHMmcaTQapO3rYu"
+                            data-image="/images/marketplace.png"
+                            data-name="Blocks.io"
+                            data-description="Monthly Subscription"
+                            data-amount="1500"
+                            data-label="Register"
+                            data-currency="EUR">
+                          </script>
+                        <!--
+                          <button type="submit" form="user_register_form">Test Register Button</button>
+                        -->
+                        
+                        </form>
+                                
+
+                   <!-- </div>-->
+                  
+                
+                 
+            </div>
+        </div>
+        
+
+
+
+    </body>
+
+
+</html>

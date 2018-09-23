@@ -1,0 +1,17 @@
+
+
+        .button1
+    {
+
+        grid-column-end: span 2;
+
+    }
+
+
+         p   
+    {    
+        font-family: rockwell,roboto;
+        font-style:italic; 
+        font-size:20px;
+        text-align: center;
+    }

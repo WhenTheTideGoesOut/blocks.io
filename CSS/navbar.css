@@ -1,0 +1,92 @@
+
+
+nav{
+    padding:0em;
+    margin:0em;
+    width:100%;
+    height:5em;
+    display:grid;
+    list-style-type: none;
+    font-family: rockwell,roboto;
+    font-style:italic; 
+    grid-column:1/span 3;
+
+
+   
+    color:rgba(129, 126, 126, 0.603);
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+}
+a{
+    
+    color:rgba(129, 126, 126, 0.911);
+    font-family: rockwell,roboto;
+    font-style:italic; 
+
+}
+
+.navbariconhomepage
+{
+    grid-column:1;
+    grid-row:1;
+    font-family: rockwell,roboto;
+    font-style:italic;
+    font-size:25px;
+    text-align: center;
+  
+
+}
+
+.navbaraboutpage
+{
+    grid-column:2;
+    grid-row:1;
+    font-size:25px;
+    text-align: left;
+    font-family: rockwell,roboto;
+    font-style:italic; 
+    text-align: center;
+
+
+    
+
+}
+
+.navbarcontactuspage
+{
+    grid-column:3;
+    grid-row:1;
+    font-family: rockwell,roboto;
+    font-style:italic; 
+    text-align: center;
+    
+    font-size:25px;
+
+
+}
+
+.navbarpricingpage
+{
+    grid-column:4;
+    grid-row:1;
+    font-family: rockwell,roboto;
+    font-style:italic; 
+    text-align: center;
+ 
+    font-size:25px;
+
+
+}
+
+.iconloginepage
+{
+    grid-column:5;
+    font-family: rockwell,roboto;
+    font-style:italic; 
+  
+    font-size:25px;
+    text-align: center;
+
+}

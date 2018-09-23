@@ -1,0 +1,140 @@
+
+.panel4{
+    margin-top:1%;
+    padding-top:1%; 
+    grid-row:3;
+    grid-column:1;
+    font-family: rockwell,roboto;
+
+}
+
+.panel5{
+    margin-top:1%;
+    padding-top:1%; 
+    grid-row:3;
+    grid-column:2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: rockwell,roboto;
+    /*
+     Nested Grid within the panel to manage the button position
+    */
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+ 
+
+}
+
+.panel6{
+    margin-top:1%;
+    padding-top:1%; 
+    grid-row:3;
+    grid-column:3;
+    font-family: rockwell,roboto;
+}
+
+.panel7{
+    margin-top:1%;
+    padding-top:1%; 
+    grid-row:4;
+    grid-column:2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: rockwell,roboto;
+    /*
+     Nested Grid within the panel to manage the button position
+    */
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+
+}
+
+.panel8{
+
+    padding-top:1%; 
+    grid-row:5;
+    grid-column:2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       /*
+     Nested Grid within the panel to manage the button position
+    */
+    grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
+    grid-gap: 0;
+
+}
+.button1
+{    grid-row:1;
+     grid-column:1;
+}
+
+.button2
+{
+    grid-row:1;
+    grid-column:2;
+}
+
+.button3
+{    grid-row:2;
+     grid-column:1;
+}
+
+.button4
+{
+    grid-row:2;
+    grid-column:2;
+}
+
+.taskNameLabel{
+    grid-row:1;
+    grid-column:1;
+
+}
+
+.materialNameLabel{
+    grid-row:1;
+    grid-column:2;
+}
+
+.materialCostLabel{
+
+    grid-row:1;
+    grid-column:3;
+}
+
+.lineCostLabel{
+
+    grid-row:1;
+    grid-column:4;
+}
+
+.taskNameInput{
+    grid-row:2;
+    grid-column:1;
+}
+
+.materialNameInput{
+
+    grid-row:2;
+    grid-column:2;
+}
+
+.materialCostInput{
+    grid-row:2;
+    grid-column:3;
+
+}
+
+.lineCostInput{
+    grid-row:2;
+    grid-column:4;
+
+}

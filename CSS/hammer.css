@@ -1,0 +1,128 @@
+body{
+
+    background-color: #212121;
+    color:rgba(129, 126, 126, 0.911);
+ /*   display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0;
+  */
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.main_display{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.panel_one {
+    grid-column: 1;
+}
+.panel_two{
+    grid-column:2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap:20px;
+
+
+
+}
+
+.panel_three{
+
+    grid-column:3;
+}
+
+
+
+button{
+
+    background-color:rgba(129, 126, 126, 0.911);
+    color:#212121;
+    border-radius: 12px;
+    border: 3px solid rgba(129, 126, 126, 0.911);
+    height: 2.5em;
+    width:auto;
+    font-size: 16pt;
+    
+    
+}
+
+.button_one{
+    grid-column: 1;
+    grid-row: 1;
+    align-self: auto;
+
+}
+
+.button_two{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.button_three{
+    grid-column:3;
+    grid-row: 1;
+
+}
+
+
+.button_four{
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.button_five{
+    grid-column: 2;
+    grid-row: 2;
+
+}
+
+.button_six{
+    grid-column: 3;
+    grid-row: 2;
+
+}
+
+.button_seven{
+    grid-column: 1;
+    grid-row: 3;
+
+}
+
+.button_eight{
+    grid-column: 2;
+    grid-row: 3;
+
+}
+
+.button_nine{
+    grid-column: 3;
+    grid-row: 3;
+
+}
+
+.button_ten{
+    grid-column: 1/4;
+    grid-row: 4;
+
+}
+.top-buffer
+{ margin-top:10px;
+ margin-bottom: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 500px)
+{
+margin-left: 33.33333333%;
+
+}

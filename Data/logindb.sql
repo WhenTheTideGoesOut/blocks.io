@@ -1,0 +1,12 @@
+CREATE DATABASE logindb;
+
+
+CREATE TABLE users (
+	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+	email VARCHAR(50) NOT NULL,
+    company_name VARCHAR (50) NOT NULL,
+    company_db VARCHAR (50) NOT NULL,
+	pass_dv VARCHAR (50) NOT NULL,
+	location VARCHAR(50),
+	date TIMESTAMP
+);
