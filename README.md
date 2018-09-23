@@ -1,2 +1,2 @@
 # blocks.io
-Helping trades get it done
+Helping tradies get it done
